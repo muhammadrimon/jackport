@@ -1,0 +1,201 @@
+:root {
+  --anton: "Anton", sans-serif;
+  --nun: "Nunito", sans-serif;
+  --btnhov: linear-gradient(90deg, #a60084, #ff39dc);
+  --btnnormal: linear-gradient(90deg, #570dc8, #9e4efc);
+  --active: #ff39dc;
+  --navlink: #944bff;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+img {
+  vertical-align: middle;
+}
+
+/* =================================================================
+                          common css ends
+================================================================= */
+
+.anton-r {
+  font-family: var(--anton);
+  font-weight: 400;
+}
+
+.nun-r {
+  font-family: var(--nun);
+  font-weight: 400;
+}
+
+.nun-m {
+  font-family: var(--nun);
+  font-weight: 500;
+}
+
+.nun-sb {
+  font-family: var(--nun);
+  font-weight: 600;
+}
+
+.nun-b {
+  font-family: var(--nun);
+  font-weight: 700;
+}
+
+.fs-14 {
+  font-size: 14px;
+}
+
+.fs-16 {
+  font-size: 16px;
+}
+
+.fs-20 {
+  font-size: 20px;
+}
+
+.fs-24 {
+  font-size: 24px;
+}
+
+.fs-32 {
+  font-size: 32px;
+}
+
+.fs-40 {
+  font-size: 40px;
+}
+
+.fs-48 {
+  font-size: 48px;
+}
+
+.fs-50 {
+  font-size: 50px;
+}
+
+.fs-331 {
+  font-size: 331px;
+}
+
+/* =================================================================
+                          font css ends
+================================================================= */
+
+.navbar {
+  z-index: 99999;
+}
+
+.navbar .navbar-brand img {
+  width: 202px;
+}
+
+.navbar-light .navbar-nav .nav-link.active {
+  color: var(--active);
+}
+
+.navbar-light .navbar-nav .nav-link {
+  padding: 0 25px !important;
+  color: var(--navlink);
+  transition: all linear 0.4s;
+}
+
+.navbar-light .navbar-nav {
+  margin-left: 40px !important;
+  margin-top: 75px !important;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+  color: var(--active);
+}
+
+.navbar .collapse .nav-btn a {
+  background: var(--btnnormal);
+  padding: 0 30px !important;
+  line-height: 50px;
+  filter: drop-shadow(0px 5px 0px #3a0090);
+  text-shadow: 0px 6px 3px #3a0090;
+  transition: all linear 0.4s;
+}
+
+.navbar .collapse .nav-btn a:first-of-type {
+  margin-right: 15px !important;
+}
+
+.navbar .collapse .nav-btn {
+  margin-top: 75px;
+}
+
+.navbar .collapse .nav-btn a:hover {
+  background: var(--btnhov);
+  filter: drop-shadow(0px 5px 0px #661355);
+  text-shadow: 0px 6px 3px #661355;
+}
+
+/* =================================================================
+                          navbar css ends
+================================================================= */
+
+#banner {
+  background: #150035 !important;
+  padding-top: 180px;
+  padding-bottom: 250px;
+}
+
+#banner .banner-images .images {
+  top: 0;
+  left: -190px;
+}
+
+#banner .banner-text h6 {
+  padding-top: 80px;
+}
+
+#banner .banner-text h1 {
+  margin-top: -45px;
+  margin-left: -10px;
+  color: #f8a724;
+  text-shadow: 0px 0px 35px rgba(255, 0, 230, 0.4);
+}
+
+#banner .banner-text p {
+  margin-top: -25px;
+  line-height: 26px;
+  margin-right: 80px;
+}
+
+#banner .banner-text .banner-btn {
+  margin-left: 160px;
+  margin-top: 30px;
+}
+
+#banner .banner-text .banner-btn a {
+  line-height: 54px;
+  padding: 0 30px !important;
+  background: var(--btnnormal);
+  filter: drop-shadow(0px 5px 0px #3a0090);
+  text-shadow: 0px 6px 3px #3a0090;
+  transition: all linear 0.4s;
+}
+
+#banner .banner-text .banner-btn a:hover {
+  background: var(--btnhov);
+  filter: drop-shadow(0px 5px 0px #661355);
+  text-shadow: 0px 6px 3px #661355;
+}
+
+/* =================================================================
+                          banner css ends
+================================================================= */
