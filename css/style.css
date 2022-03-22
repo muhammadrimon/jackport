@@ -304,3 +304,29 @@ header h1 {
 /* =================================================================
                           related css ends
 ================================================================= */
+
+#unlock {
+  padding-top: 100px;
+  background: #150035;
+}
+
+#unlock .unlock-text .text a {
+  background: linear-gradient(10deg, #570dc8, #9e4efc);
+  line-height: 52px;
+  padding: 0 30px !important;
+  border-radius: 6px !important;
+  filter: drop-shadow(0px 5px 0px #3a0090);
+  text-shadow: 0px 6px 3px #570dc8;
+  /* transition: all linear 0.4s; */
+  margin-top: 45px;
+}
+
+#unlock .unlock-text .text a:hover {
+  background: var(--btnhov);
+  filter: drop-shadow(0px 5px 0px #661355);
+  text-shadow: 0px 6px 3px #661355;
+}
+
+/* =================================================================
+                          unlock css ends
+================================================================= */
