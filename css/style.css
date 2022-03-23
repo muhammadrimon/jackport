@@ -275,6 +275,14 @@ header h1 {
   transition: all linear 0.4s;
 }
 
+#related .related-main .related-item img {
+  transition: all linear 0.4s;
+}
+
+#related .related-main .related-item:hover img {
+  transform: scale(1.2);
+}
+
 #related .related-main .related-item:hover .related-overlay {
   bottom: 0;
   left: 0;
@@ -308,6 +316,20 @@ header h1 {
 #unlock {
   padding-top: 100px;
   background: #150035;
+  padding-bottom: 5px;
+}
+
+#unlock .unlock-text header h1 {
+  padding-top: 70px !important;
+  padding-bottom: 50px !important;
+}
+
+#unlock .unlock-text .text p {
+  line-height: 26px;
+}
+
+#unlock .unlock-text .text p:last-of-type {
+  padding-top: 23px !important;
 }
 
 #unlock .unlock-text .text a {
@@ -318,7 +340,7 @@ header h1 {
   filter: drop-shadow(0px 5px 0px #3a0090);
   text-shadow: 0px 6px 3px #570dc8;
   /* transition: all linear 0.4s; */
-  margin-top: 45px;
+  margin-top: 52px;
 }
 
 #unlock .unlock-text .text a:hover {
