@@ -1,8 +1,8 @@
 :root {
   --anton: "Anton", sans-serif;
   --nun: "Nunito", sans-serif;
-  --btnhov: linear-gradient(90deg, #a60084, #ff39dc);
-  --btnnormal: linear-gradient(90deg, #570dc8, #9e4efc);
+  --btnhov: linear-gradient(0deg, #a60084, #ff39dc);
+  --btnnormal: linear-gradient(0deg, #570dc8, #9e4efc);
   --active: #ff39dc;
   --navlink: #944bff;
   --bg1: #0b001b;
@@ -293,7 +293,7 @@ header h1 {
 }
 
 #related .related-main .related-item .related-overlay a {
-  background: linear-gradient(10deg, #570dc8, #9e4efc);
+  background: linear-gradient(0deg, #570dc8, #9e4efc);
   line-height: 54px;
   padding: 0 30px !important;
   border-radius: 6px !important;
@@ -333,7 +333,7 @@ header h1 {
 }
 
 #unlock .unlock-text .text a {
-  background: linear-gradient(10deg, #570dc8, #9e4efc);
+  background: linear-gradient(0deg, #570dc8, #9e4efc);
   line-height: 52px;
   padding: 0 30px !important;
   border-radius: 6px !important;
@@ -351,4 +351,111 @@ header h1 {
 
 /* =================================================================
                           unlock css ends
+================================================================= */
+
+#pricing {
+  background: var(--bg1);
+  padding-top: 95px;
+  padding-bottom: 105px;
+}
+
+#pricing .pricing-main {
+  padding-top: 90px;
+}
+
+#pricing .pricing-main .pricing-item {
+  position: relative;
+  transition: all linear 0.4s;
+}
+
+#pricing .pricing-main .pricing-item:hover {
+  transform: translateY(25px);
+}
+
+#pricing .pricing-main .pricing-item .plan-header {
+  position: absolute;
+  top: -50px;
+  left: 0;
+  width: 100%;
+}
+
+#pricing .pricing-main .pricing-item .plan-header h6 {
+  line-height: 54px;
+  background: linear-gradient(0deg, #a60084, #ff39dc);
+  filter: drop-shadow(0px 5px 0px #661355);
+  text-shadow: 0px 5px 2px #661355;
+  opacity: 0;
+  border-radius: 5px;
+  transition: all linear 0.4s;
+}
+
+#pricing .pricing-main .pricing-item:hover .plan-header h6 {
+  opacity: 1;
+}
+
+#pricing .pricing-main .pricing-item .plan-content {
+  background: linear-gradient(0deg, #570dc8, #9e4efc);
+  border-radius: 5px;
+}
+
+#pricing .pricing-main .pricing-item .plan-content h2 {
+  padding-top: 60px;
+  text-shadow: 0px 5px 1px #5813b8;
+  padding-bottom: 15px !important;
+}
+
+#pricing .pricing-main .pricing-item .plan-content p {
+  margin-top: -5px;
+  padding-bottom: 26px !important;
+  position: relative;
+}
+
+#pricing .pricing-main .pricing-item .plan-content p::after {
+  content: "";
+  width: 100%;
+  height: 1px;
+  background: #0b001b;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+#pricing .pricing-main .pricing-item .plan-content ul {
+  padding-top: 25px !important;
+  padding-bottom: 50px !important;
+}
+
+#pricing .pricing-main .pricing-item .plan-content ul li {
+  padding-bottom: 17px !important;
+}
+
+#pricing .pricing-main .pricing-item .plan-content ul li:last-of-type {
+  padding-bottom: 0 !important;
+}
+
+#pricing .pricing-main .pricing-item .plan-btn {
+  position: absolute;
+  bottom: -25px;
+  left: 49%;
+  transform: translateX(-49%);
+}
+
+#pricing .pricing-main .pricing-item .plan-btn a {
+  line-height: 50px;
+  background: linear-gradient(0deg, #570dc8, #9e4efc);
+  filter: drop-shadow(0px 5px 0px #3a0090);
+  text-shadow: 0px 6px 3px #570dc8;
+  padding: 0 30px !important;
+  border-radius: 6px !important;
+  transition: all linear 0.4s;
+}
+
+#pricing .pricing-main .pricing-item:hover .plan-btn a {
+  background: var(--btnhov);
+  filter: drop-shadow(0px 5px 0px #661355);
+  text-shadow: 0px 6px 3px #661355;
+}
+
+/* =================================================================
+                          pricing css ends
 ================================================================= */
