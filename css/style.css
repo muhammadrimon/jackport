@@ -459,3 +459,45 @@ header h1 {
 /* =================================================================
                           pricing css ends
 ================================================================= */
+
+#ask {
+  background: #150035;
+  padding-top: 95px;
+  padding-bottom: 100px;
+}
+
+#ask .faq .faq-main {
+  padding-top: 60px;
+}
+
+#ask .faq .faq-main .faq-item {
+  border: 1px solid transparent;
+  padding: 23px 30px !important;
+}
+
+.border-red {
+  border-color: #fdb125 !important;
+  transition: all linear 0.4s;
+}
+
+#ask .faq .faq-main .faq-item .faq-heading {
+  cursor: pointer;
+}
+
+#ask .faq .faq-main .faq-item .faq-heading h3 {
+  padding-right: 150px !important;
+}
+
+#ask .faq .faq-main .faq-item .faq-content {
+  display: none;
+}
+
+#ask .faq .faq-main .faq-item .faq-content p {
+  font-size: 15px;
+  line-height: 26px;
+  padding-top: 20px !important;
+}
+
+/* =================================================================
+                          ask css ends
+================================================================= */
