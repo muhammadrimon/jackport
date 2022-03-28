@@ -473,6 +473,11 @@ header h1 {
 #ask .faq .faq-main .faq-item {
   border: 1px solid transparent;
   padding: 23px 30px !important;
+  margin-bottom: 7px;
+}
+
+#ask .faq .faq-main .faq-item:last-of-type {
+  margin-bottom: 0;
 }
 
 .border-red {
@@ -482,11 +487,18 @@ header h1 {
 
 #ask .faq .faq-main .faq-item .faq-heading {
   cursor: pointer;
+  position: relative;
 }
 
-#ask .faq .faq-main .faq-item .faq-heading h3 {
-  padding-right: 150px !important;
+#ask .faq .faq-main .faq-item .faq-heading .down-arrow {
+  position: absolute;
+  right: 0;
+  top: 0;
 }
+
+/* #ask .faq .faq-main .faq-item .faq-heading h3 {
+  padding-right: 150px !important;
+} */
 
 #ask .faq .faq-main .faq-item .faq-content {
   display: none;
@@ -496,6 +508,17 @@ header h1 {
   font-size: 15px;
   line-height: 26px;
   padding-top: 20px !important;
+}
+
+#ask .time-remaning .timer-text h3 {
+  line-height: 70px;
+}
+
+#ask .time-remaning ul li {
+  width: 70px;
+  height: 70px;
+  line-height: 70px;
+  text-align: center;
 }
 
 /* =================================================================

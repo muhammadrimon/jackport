@@ -14,6 +14,12 @@
     />
     <!-- icon fonts css -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css" />
+    <!-- scrolling  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.css
+    "
+    />
     <!-- bootstrap css -->
     <link rel="stylesheet" href="css/bootstrap.min.css" />
     <!-- main css -->
@@ -294,7 +300,7 @@
           <div class="col-xl-7">
             <div class="faq">
               <header>
-                <h1 class="mb-0 anton-r fs-40 text-capitalize text-center">Frequently Ask Questions</h1>
+                <h1 class="mb-0 anton-r fs-40 text-capitalize">Frequently Ask Questions</h1>
               </header>
               <div class="faq-main">
                 <div class="faq-item item1">
@@ -302,7 +308,7 @@
                     <h3 class="mb-0 nun-r fs-20 text-white d-inline-block">
                       01. How can play these games (for begineer)?
                     </h3>
-                    <div class="down-arrow d-inline-block">
+                    <div class="down-arrow d-inline-block ">
                       <i class="fa-solid fa-sort-down fs-20 text-white"></i>
                     </div>
                   </div>
@@ -318,7 +324,7 @@
                 <div class="faq-item item2">
                   <div class="faq-heading">
                     <h3 class="mb-0 nun-r fs-20 text-white d-inline-block">
-                      01. How can play these games (for begineer)?
+                      02. If I play games and lost by any chance, How I’ll pay?	
                     </h3>
                     <div class="down-arrow d-inline-block">
                       <i class="fa-solid fa-sort-down fs-20 text-white"></i>
@@ -336,7 +342,7 @@
                 <div class="faq-item item3">
                   <div class="faq-heading">
                     <h3 class="mb-0 nun-r fs-20 text-white d-inline-block">
-                      01. How can play these games (for begineer)?
+                      03. What are the benefits for gambiling?	
                     </h3>
                     <div class="down-arrow d-inline-block">
                       <i class="fa-solid fa-sort-down fs-20 text-white"></i>
@@ -354,7 +360,7 @@
                 <div class="faq-item item4">
                   <div class="faq-heading">
                     <h3 class="mb-0 nun-r fs-20 text-white d-inline-block">
-                      01. How can play these games (for begineer)?
+                      04. What are the benefits for gambiling?	
                     </h3>
                     <div class="down-arrow d-inline-block">
                       <i class="fa-solid fa-sort-down fs-20 text-white"></i>
@@ -372,7 +378,24 @@
             </div>
           </div>
           <div class="col-xl-5">
-            <div class="today"></div>
+            <div class="today">
+              <header>
+                <h1 class="mb-0 anton-r fs-40 text-capitalize ">today's tournaments</h1>
+              </header>
+              <div class="time-remaning d-flex">
+                <div class="timer-text">
+                  <h3 class="nun-sb fs-20 text-white text-capitalize">time remaning:</h3> 
+                </div>
+                <div id="getting-started">
+                  <ul class="ps-0 mb-0 d-flex">
+                    <li id="hours"></li>
+                    <li id="minutes"></li>
+                    <li id="seconds"></li>
+                  </ul>
+                </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -381,7 +404,10 @@
 
     <script src="js/jquery-2.2.4.min.js"></script>
     <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.min.js
+    "></script>
     <!-- <script src="js/jquery.beefup.js"></script> -->
+    <script src="js/jquery.countdown.js"></script>
     <script src="js/custom.js"></script>
   </body>
 </html>

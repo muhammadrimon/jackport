@@ -33,4 +33,12 @@ $(document).ready(function () {
     $(".content2, .content3, .content1").hide();
     $(".item2, .item3, .item1").removeClass("border-red", 1000);
   });
+
+  // countdown timer;
+
+  $("#getting-started").countdown("2030/01/01", function (event) {
+    $("#hours").html(event.strftime("%H"));
+    $("#minutes").html(event.strftime("%M"));
+    $("#seconds").html(event.strftime("%S"));
+  });
 });
