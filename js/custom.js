@@ -41,4 +41,7 @@ $(document).ready(function () {
     $("#minutes").html(event.strftime("%M"));
     $("#seconds").html(event.strftime("%S"));
   });
+
+  // timer scrollbar;
+  $(".time-list").mCustomScrollbar();
 });

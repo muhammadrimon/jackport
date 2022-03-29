@@ -466,6 +466,30 @@ header h1 {
   padding-bottom: 100px;
 }
 
+#ask .faq header {
+  position: relative;
+}
+
+#ask .faq header::before {
+  content: "";
+  width: 100%;
+  height: 2px;
+  background: #000;
+  position: absolute;
+  bottom: -29px;
+  left: 0;
+}
+
+#ask .faq header::after {
+  content: "";
+  width: 100%;
+  height: 1px;
+  background: #290a59;
+  position: absolute;
+  bottom: -31px;
+  left: 0;
+}
+
 #ask .faq .faq-main {
   padding-top: 60px;
 }
@@ -510,6 +534,38 @@ header h1 {
   padding-top: 20px !important;
 }
 
+#ask .today header {
+  position: relative;
+}
+
+#ask .today header::before {
+  content: "";
+  width: 100%;
+  height: 2px;
+  background: #000;
+  position: absolute;
+  bottom: -29px;
+  left: 0;
+}
+
+#ask .today header::after {
+  content: "";
+  width: 100%;
+  height: 1px;
+  background: #290a59;
+  position: absolute;
+  bottom: -31px;
+  left: 0;
+}
+
+#ask .time-remaning {
+  margin-top: 62px;
+}
+
+#ask .time-remaning .timer-text {
+  margin-right: 35px;
+}
+
 #ask .time-remaning .timer-text h3 {
   line-height: 70px;
 }
@@ -517,8 +573,94 @@ header h1 {
 #ask .time-remaning ul li {
   width: 70px;
   height: 70px;
-  line-height: 70px;
   text-align: center;
+  border: 1px solid #f5a60e;
+  border-radius: 5px;
+  margin-right: 28px !important;
+}
+
+#ask .time-remaning ul li:last-of-type {
+  margin-right: 0 !important;
+}
+
+#ask .time-remaning ul li .time {
+  color: #f5a60e;
+  display: block;
+}
+
+#ask .time-remaning ul li .time1 {
+  padding-top: 7px !important;
+}
+
+#ask .time-remaning ul li .time2 {
+  margin-top: -4px !important;
+}
+
+#ask .today .time-list {
+  margin-top: 25px;
+  height: 290px;
+}
+
+#ask .today .time-list .mCSB_scrollTools .mCSB_draggerRail {
+  width: 2px;
+  background: #000;
+  position: relative;
+}
+
+#ask .today .time-list .mCSB_scrollTools .mCSB_draggerRail::after {
+  content: "";
+  width: 1px;
+  height: 100%;
+  background: #290a59;
+  position: absolute;
+  bottom: 0;
+  right: -1px;
+}
+
+#ask .today .time-list .mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {
+  width: 13px;
+  height: 50px;
+  background: #1f004f;
+}
+
+#ask .today .time-list ul li {
+  position: relative;
+  padding: 25px 0;
+}
+
+#ask .today .time-list ul li::before {
+  content: "";
+  width: 100%;
+  height: 2px;
+  background: #000;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+#ask .today .time-list ul li::after {
+  content: "";
+  width: 100%;
+  height: 1px;
+  background: #290a59;
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+}
+
+#ask .today .time-list ul li:last-of-type::before {
+  display: none;
+}
+
+#ask .today .time-list ul li:last-of-type::after {
+  display: none;
+}
+
+#ask .today .time-list ul li .time-list-flag {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateY(-50%) translateX(-50%);
 }
 
 /* =================================================================
