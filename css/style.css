@@ -666,3 +666,48 @@ header h1 {
 /* =================================================================
                           ask css ends
 ================================================================= */
+
+#sub-pay {
+  background: linear-gradient(0deg, #570dc8, #9e4efc);
+  padding-top: 24px;
+  padding-bottom: 32px;
+}
+
+#sub-pay .subscribe header h1 {
+  text-shadow: 4px 7px 0px #5813b8;
+}
+
+#sub-pay .subscribe form input {
+  background: transparent;
+  outline: none;
+  border: 1px solid #3a0090;
+  width: 523px;
+  padding-left: 17px;
+  line-height: 40px;
+  color: #3a0090;
+}
+
+#sub-pay .subscribe form {
+  position: relative;
+  margin-top: 15px;
+}
+
+#sub-pay .subscribe form a {
+  position: absolute;
+  right: 72px;
+  top: 0;
+}
+
+#sub-pay .subscribe form a i {
+  color: #3a0090;
+  line-height: 40px;
+  width: 47px;
+  background: transparent;
+  border: 1px solid #3a0090;
+  text-align: center;
+  border-left: none;
+}
+
+/* =================================================================
+                          sub-pay css ends
+================================================================= */
