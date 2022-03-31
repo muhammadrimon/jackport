@@ -674,7 +674,7 @@ header h1 {
 }
 
 #sub-pay .subscribe header h1 {
-  text-shadow: 4px 7px 0px #5813b8;
+  text-shadow: 4px 6px 0px #5813b8;
 }
 
 #sub-pay .subscribe form input {
@@ -706,6 +706,23 @@ header h1 {
   border: 1px solid #3a0090;
   text-align: center;
   border-left: none;
+}
+
+#sub-pay .payment header h1 {
+  text-shadow: 4px 6px 0px #5813b8;
+}
+
+#sub-pay .payment ul {
+  display: flex;
+  margin-top: 15px;
+}
+
+#sub-pay .payment ul li {
+  margin-right: 15px;
+}
+
+#sub-pay .payment ul li:last-child {
+  margin-right: 0;
 }
 
 /* =================================================================
