@@ -738,11 +738,14 @@ header h1 {
 footer {
   background: #0b001b;
   padding-top: 60px;
-  padding-bottom: 25px;
 }
 
 footer .f-item .f-header {
   padding-bottom: 23px;
+}
+
+footer .f-item .f-main {
+  padding-bottom: 33px;
 }
 
 footer .about-part .f-main p {
@@ -813,6 +816,35 @@ footer .security-part .f-main .security-item a {
 
 footer .security-part .f-main .security-item a .second {
   margin-top: -7px;
+}
+
+footer .f-bottom {
+  position: relative;
+  border-top: 1px solid #290a59;
+}
+
+footer .f-bottom::before {
+  content: "";
+  width: 150px;
+  height: 1px;
+  background: linear-gradient(to right, #290a59, #6016d2, #290a59);
+  position: absolute;
+  top: -0.5px;
+  left: 15%;
+}
+
+footer .f-bottom::after {
+  content: "";
+  width: 150px;
+  height: 1px;
+  background: linear-gradient(to right, #290a59, #6016d2, #290a59);
+  position: absolute;
+  top: -0.5px;
+  right: 15%;
+}
+
+footer .f-bottom .footer-bottom p {
+  line-height: 65px;
 }
 
 /* =================================================================
