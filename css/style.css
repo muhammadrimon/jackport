@@ -36,6 +36,11 @@ img {
   font-weight: 400;
 }
 
+.nun-el {
+  font-family: var(--nun);
+  font-weight: 200;
+}
+
 .nun-r {
   font-family: var(--nun);
   font-weight: 400;
@@ -671,6 +676,7 @@ header h1 {
   background: linear-gradient(0deg, #570dc8, #9e4efc);
   padding-top: 24px;
   padding-bottom: 32px;
+  filter: drop-shadow(0px 6px 0px #3a0090);
 }
 
 #sub-pay .subscribe header h1 {
@@ -727,4 +733,56 @@ header h1 {
 
 /* =================================================================
                           sub-pay css ends
+================================================================= */
+
+footer {
+  background: #0b001b;
+  padding-top: 60px;
+  padding-bottom: 65px;
+}
+
+footer .f-item .f-header {
+  padding-bottom: 23px;
+}
+
+footer .f-item .f-main p {
+  font-size: 15px;
+  line-height: 26px;
+}
+
+footer .f-item .f-main ul {
+  display: flex;
+  margin-top: 35px;
+}
+
+footer .f-item .f-main ul li {
+  margin-right: 15px;
+}
+
+footer .f-item .f-main ul li:last-child {
+  margin-right: 0;
+}
+
+footer .f-item .f-main ul li a {
+  display: inline-block;
+  width: 50px;
+  line-height: 50px;
+  text-align: center;
+  background: linear-gradient(0deg, #570dc8, #9e4efc);
+  filter: drop-shadow(0px 3px 0px #3a0090);
+}
+
+footer .f-item .f-main ul li a:hover {
+  background: linear-gradient(0deg, #a60084, #ff39dc);
+  filter: drop-shadow(0px 3px 0px #661355);
+}
+
+footer .f-item .f-main ul li a i {
+  font-size: 20px;
+  color: #fff;
+  text-shadow: 3px 5px 1px #5813b8;
+}
+
+/* =================================================================
+                          footer css ends
 ================================================================= */
