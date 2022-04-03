@@ -738,32 +738,32 @@ header h1 {
 footer {
   background: #0b001b;
   padding-top: 60px;
-  padding-bottom: 65px;
+  padding-bottom: 25px;
 }
 
 footer .f-item .f-header {
   padding-bottom: 23px;
 }
 
-footer .f-item .f-main p {
+footer .about-part .f-main p {
   font-size: 15px;
   line-height: 26px;
 }
 
-footer .f-item .f-main ul {
+footer .about-part .f-main ul {
   display: flex;
   margin-top: 35px;
 }
 
-footer .f-item .f-main ul li {
+footer .about-part .f-main ul li {
   margin-right: 15px;
 }
 
-footer .f-item .f-main ul li:last-child {
+footer .about-part .f-main ul li:last-child {
   margin-right: 0;
 }
 
-footer .f-item .f-main ul li a {
+footer .about-part .f-main ul li a {
   display: inline-block;
   width: 50px;
   line-height: 50px;
@@ -772,15 +772,47 @@ footer .f-item .f-main ul li a {
   filter: drop-shadow(0px 3px 0px #3a0090);
 }
 
-footer .f-item .f-main ul li a:hover {
+footer .about-part .f-main ul li a:hover {
   background: linear-gradient(0deg, #a60084, #ff39dc);
   filter: drop-shadow(0px 3px 0px #661355);
 }
 
-footer .f-item .f-main ul li a i {
+footer .about-part .f-main ul li a i {
   font-size: 20px;
   color: #fff;
   text-shadow: 3px 5px 1px #5813b8;
+}
+
+footer .links-part .f-main ul li {
+  margin-bottom: 17px;
+}
+
+footer .links-part .f-main ul li span {
+  width: 50%;
+  display: inline-block;
+}
+
+footer .links-part .f-main ul li:last-child {
+  margin-bottom: 0;
+}
+
+footer .links-part .f-main ul li a:hover {
+  text-decoration: underline;
+}
+
+footer .security-part .f-main .security-item {
+  position: relative;
+  margin-bottom: 27px;
+}
+
+footer .security-part .f-main .security-item a {
+  position: absolute;
+  top: 15px;
+  left: 100px;
+}
+
+footer .security-part .f-main .security-item a .second {
+  margin-top: -7px;
 }
 
 /* =================================================================
