@@ -831,6 +831,7 @@ footer .f-bottom::before {
   position: absolute;
   top: -0.5px;
   left: 15%;
+  border-radius: 10px;
 }
 
 footer .f-bottom::after {
@@ -841,6 +842,7 @@ footer .f-bottom::after {
   position: absolute;
   top: -0.5px;
   right: 15%;
+  border-radius: 10px;
 }
 
 footer .f-bottom .footer-bottom p {
