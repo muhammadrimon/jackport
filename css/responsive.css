@@ -399,3 +399,222 @@
 /* ================================================
                 small device ends
 ================================================== */
+
+/* ================================================
+                medium device ends
+================================================== */
+
+@media (min-width: 768px) and (max-width: 991px) {
+  /* navbar start */
+  .navbar .navbar-brand img {
+    width: 163px;
+  }
+
+  .navbar-light .navbar-toggler {
+    border-color: #a60084;
+    margin-top: 30px;
+  }
+
+  .navbar-light .navbar-toggler i {
+    font-size: 20px;
+    color: #a60084;
+  }
+
+  .navbar .navbar-collapse {
+    background: #0b001b;
+    padding-bottom: 25px;
+  }
+
+  .navbar-light .navbar-nav {
+    margin-left: 0 !important;
+    margin-top: 20px !important;
+  }
+
+  .navbar .collapse .nav-btn {
+    margin-top: 30px;
+    margin-left: 240px !important;
+  }
+
+  .navbar .collapse .nav-btn a {
+    padding: 0 20px !important;
+    line-height: 40px;
+  }
+  /* navbar ends */
+
+  /* banner start */
+  #banner {
+    padding-top: 100px;
+  }
+
+  #banner .banner-images .images {
+    top: 98px;
+    left: -100px;
+  }
+
+  #banner .banner-images .images img {
+    width: 460px;
+  }
+
+  #banner .banner-text h1 {
+    margin-top: -25px;
+    margin-left: -08px;
+    font-size: 245px;
+  }
+
+  #banner .banner-text p {
+    margin-right: 0;
+  }
+
+  #banner .banner-text .banner-btn {
+    margin-left: 100px;
+  }
+
+  #banner .banner-text .banner-btn a {
+    line-height: 50px;
+    padding: 0 25px !important;
+  }
+  /* banner ends */
+
+  /* card start */
+  #card .card-main .item2 {
+    left: 231px;
+  }
+
+  #card .card-main .item3 {
+    left: 462px;
+  }
+  /* card ends */
+
+  /* related start */
+
+  #related {
+    padding-bottom: 65px;
+  }
+
+  #related header h1 {
+    font-size: 40px;
+  }
+
+  #related .related-main .related-item .related-overlay h3 {
+    padding-top: 60px;
+  }
+
+  #related .related-main .related-item .related-overlay a {
+    line-height: 45px;
+    padding: 0 14px !important;
+    margin-top: 12px;
+  }
+  /* related ends */
+
+  /* unlock start */
+  #unlock {
+    padding-top: 0;
+  }
+
+  #unlock .unlock-image {
+    padding-top: 125px;
+  }
+
+  #unlock .unlock-text header h1 {
+    padding-top: 50px !important;
+    padding-bottom: 30px !important;
+    font-size: 40px;
+  }
+
+  #unlock .unlock-text .text a {
+    line-height: 45px;
+    padding: 0 20px !important;
+  }
+  /* unlock ends */
+
+  /* pricing start */
+  #pricing {
+    padding-top: 60px;
+    padding-bottom: 70px;
+  }
+
+  #pricing .pricing-main {
+    padding-top: 60px;
+  }
+
+  #pricing .pricing-main .pricing-item .plan-header {
+    top: -44px;
+  }
+
+  #pricing .pricing-main .pricing-item .plan-header h6 {
+    line-height: 44px;
+  }
+
+  #pricing .pricing-main .pricing-item .plan-content h2 {
+    padding-top: 30px;
+    padding-bottom: 0px !important;
+  }
+
+  #pricing .pricing-main .pricing-item .plan-content p {
+    padding-bottom: 10px !important;
+  }
+
+  #pricing .pricing-main .pricing-item .plan-content ul {
+    padding-top: 10px !important;
+    padding-bottom: 40px !important;
+  }
+
+  #pricing .pricing-main .pricing-item .plan-content ul li {
+    padding-bottom: 4px !important;
+  }
+
+  #pricing .pricing-main .pricing-item .plan-btn {
+    bottom: -16px;
+  }
+
+  #pricing .pricing-main .pricing-item .plan-btn a {
+    font-size: 20px;
+    line-height: 40px;
+    padding: 0 5px !important;
+  }
+
+  /* pricing ends */
+
+  /* ask start*/
+  #ask {
+    padding-top: 60px;
+  }
+
+  #ask .today {
+    margin-top: 20px;
+  }
+
+  #ask .time-remaning .timer-text {
+    margin-right: 280px;
+  }
+  /* ask ends*/
+
+  /* sub-pay start*/
+  #sub-pay .subscribe form input {
+    width: 290px;
+  }
+
+  #sub-pay .subscribe form a {
+    right: 0;
+  }
+  /* sub-pay ends*/
+
+  /* footer start*/
+  footer .f-item .f-header h2 {
+    font-size: 30px;
+  }
+
+  footer .about-part .f-main ul li a {
+    width: 40px;
+    line-height: 40px;
+  }
+
+  footer .links-part .f-main ul li span {
+    width: 62%;
+  }
+  /* footer ends*/
+}
+
+/* ================================================
+                medium device ends
+================================================== */
