@@ -618,3 +618,87 @@
 /* ================================================
                 medium device ends
 ================================================== */
+
+/* ================================================
+                large device start
+================================================== */
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  /* nav start */
+  .navbar-light .navbar-nav .nav-link {
+    padding: 0 18px !important;
+  }
+
+  .navbar .collapse .nav-btn a {
+    padding: 0 20px !important;
+  }
+  /* nav ends */
+
+  /* banner start*/
+  #banner .banner-images .images img {
+    width: 620px;
+  }
+
+  #banner .banner-text p {
+    margin-right: 0;
+  }
+  /* banner ends*/
+
+  /* card start*/
+  #card .card-main .item2 {
+    left: 311px;
+  }
+
+  #card .card-main .item3 {
+    left: 622px;
+  }
+  /* card ends*/
+
+  /* related games start*/
+  #related .related-main .related-item .related-overlay h3 {
+    padding-top: 85px;
+  }
+
+  #related .related-main .related-item .related-overlay a {
+    margin-top: 30px;
+  }
+  /* related games ends*/
+
+  /* pricing start*/
+  #pricing .pricing-main .pricing-item .plan-btn a {
+    padding: 0 16px !important;
+  }
+  /* pricing ends*/
+
+  /* ask and today's start*/
+
+  #ask .faq .faq-main .faq-item .faq-heading .down-arrow {
+    right: -8px;
+  }
+  /* ask and today's ends*/
+
+  /* subscribe and payment start */
+  #sub-pay .subscribe form a {
+    right: 0;
+  }
+
+  #sub-pay .subscribe form input {
+    width: 410px;
+  }
+  /* subscribe and payment ends */
+}
+
+/* ================================================
+                large device ends
+================================================== */
+
+/* ================================================
+            extra extra large device ends
+================================================== */
+
+@media (max-width: 1400px) {
+}
+
+/* ================================================
+            extra extra large device ends
+================================================== */
