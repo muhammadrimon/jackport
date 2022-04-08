@@ -696,7 +696,43 @@
             extra extra large device ends
 ================================================== */
 
-@media (max-width: 1400px) {
+@media (min-width: 1400px) {
+  /* banner start */
+  #banner .banner-images .images {
+    left: -80px;
+  }
+
+  #banner .banner-text p {
+    margin-right: 150px;
+  }
+
+  #banner .banner-text .banner-btn {
+    margin-left: 172px;
+  }
+  /* banner ends */
+
+  /* card start */
+  #card .card-main .item2 {
+    left: 432px;
+  }
+
+  #card .card-main .item3 {
+    left: 864px;
+  }
+  /* card ends */
+
+  /* unlock start */
+  #unlock .unlock-text .text p {
+    line-height: 26px;
+    font-size: 16px;
+  }
+  /* unlock ends */
+
+  /* subscribe and payment start */
+  #sub-pay .subscribe form input {
+    width: 627px;
+  }
+  /* subscribe and payment ends */
 }
 
 /* ================================================
